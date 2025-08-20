@@ -14,10 +14,10 @@ console.log(`count is now ${count}`);
 // The right side of `=` resolves before reassignment. Count is 2
 // count = count + 1;
 
-// We can use the increment operator to add 1 and reassign. Count is 3
+// The "increment" operator is the same as `count = count + 1`. Count is 3
 // count++;
 
-// We can use the "addition assignment" operator to add any number and reassign. Count is 6
+// The "addition assignment" operator is the same as `count = count + 3`. Count is 6
 // count += 3;
 
 // console.log(`count is now ${count}`); // Output: count is now 6
