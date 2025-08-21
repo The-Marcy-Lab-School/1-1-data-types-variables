@@ -27,3 +27,12 @@ console.log(!true);         // Not
 // Ternary Operator
 console.log("\nTernary Operator:");
 console.log(5 % 2 === 0 ? "it is even!" : "it is odd!");
+
+// Order of Operations:
+// 1. Math.random() --> resolves to a random number between 0 and 1
+// 2. Math.random() > 0.5 --> resolves to true or false
+// 3. Math.random() > 0.5 ? "Heads" : "Tails" --> resolves to "Heads" or "Tails"
+// 4. const result = Math.random() > 0.5 ? "Heads" : "Tails" --> assigns the result to the variable result
+const result = Math.random() > 0.5 ? "Heads" : "Tails";
+
+console.log(result);
